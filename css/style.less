@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'd9464arkhip_font';
+    src: url('../fonts/d9464arkhip_font.eot');
+    src: url('../fonts/d9464arkhip_font.eot') format('embedded-opentype'),
+         url('../fonts/d9464arkhip_font.woff2') format('woff2'),
+         url('../fonts/d9464arkhip_font.woff') format('woff'),
+         url('../fonts/d9464arkhip_font.ttf') format('truetype'),
+         url('../fonts/d9464arkhip_font.svg#d9464arkhip_font') format('svg');
+}
+
+@st-one:'d9464arkhip_font';
+@color-one:#fd3c3f;
+
+section#knopkaone{
+	background: black;
+	font-family: arial;
+	font-size: 20pt;
+	margin-top: 20px;
+   		button{
+   			border-radius:10px;
+  			background-color: @color-one;     
+    		text-decoration:none;  
+ 			border:3px solid #fd3c3f;
+    		padding-left:35px;
+    		padding-right:35px;
+    		color:white; 
+    	&:hover{
+    		background-color:black;
+    		color:#fd3c3f;
+    		box-shadow: 0 0 25px 5px @color-one;
+    	}
+}
+}
+
+section#two{
+	height: 80px;
+	background: #323337;
+	margin-top: 50px;
+	button{
+		font-family: arial ;
+		font-size: 15px;
+		margin-top: 14px;
+		border-radius:5px;
+  		background-color: #669acc;     
+    	text-decoration:none;  
+ 		border:none;
+    	padding-left:70px;
+    	padding-right:70px;
+    	padding-bottom: 15px;
+    	padding-top:15px;
+    	color:#373135; 
+    &:hover{
+    	background-color:#28608f;
+    	box-shadow: 0 0 25px 2px white;
+    	color:white;
+    }
+	}
+}
+
+section#three{
+	margin-top: 25px;
+	height: 80px;
+	background: #white;
+	button{
+		display: inline-block;
+        color: #1a0000;
+        text-decoration: none;
+        padding-left:70px;
+    	padding-right:70px;
+    	padding-bottom: 15px;
+    	padding-top:15px;
+        outline: none;
+        border-width: 2px 0;
+        border-style: solid none;
+        border-color: #FDBE33 #000 #D77206;
+        border-radius: 6px;
+        background: linear-gradient(#F3AE0F, #E38916) #E38916;
+        transition: 0.2s;
+	} 
+		button:hover { background: linear-gradient(#f7d430, #f59500) #f5ae00; };
+		button:active { background: linear-gradient(#f59500, #f7d430) #f59500; }
+}	
